@@ -1,11 +1,11 @@
 def max(a,b,c):
-    if a > b and c:
+    if a > b or c:
         print(a)
-    elif b > a and c:
+    elif b > a or c:        
         print(b)
-    elif c > a and b:
+    elif c > a or b:
         print(c)
     else:
-        print("Invalid inputs")
+        print("No greater number")
+max(10,5,9)
 
-max(4,9,1)
