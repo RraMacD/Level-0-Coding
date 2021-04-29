@@ -1,8 +1,14 @@
-user_celcius = int(input('Enter temperature you want to convert into fahrenheit: '))
-user_fahrenheit = int(input('Enter temparature you want to convert into celcius: '))
+#Formula for degree celcius to fahrenheit celcius = (user_fahrenheit -32) * 5/9 
+#Formula for fahrenheit to degree celcius fahrenheit = (user_celcius * 9/5) + 32 
 
-fahrenheit = (user_celcius * 9/5) + 32 #Formula for degree celcius to fahrenheit
-celcius = (user_fahrenheit -32) * 5/9 #Formula for fahrenheit to degree celcius
+def celcius_degree(a):
+    celcius = (a -32) * 5/9
+    return celcius 
+print("Your temperature in celcius degree is: ",celcius_degree(int(input())))
 
-print("The converted celcius to fahrenheit is", fahrenheit)
-print("The comverted fahrenheit to celcius is ", celcius)
+def fahrenheit_temp(b):
+    fahrenheit = (b * 9/5) + 32
+    return fahrenheit 
+print("Your temparature in fahrenheit is: ",fahrenheit_temp(int(input())))
+
+
