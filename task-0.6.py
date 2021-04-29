@@ -1,11 +1,12 @@
-def max(a,b,c):
-    if a > b or c:
-        print(a)
-    elif b > a or c:        
-        print(b)
+def max(a,b,c): 
+    if a > b or c: 
+        return a
+    elif b > a or c: 
+        return b
     elif c > a or b:
-        print(c)
-    else:
-        print("No greater number")
-max(10,5,9)
+        return c
+    else: 
+        return "No greater number"
+
+print(max(10,5,9))
 
