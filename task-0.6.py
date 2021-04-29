@@ -1,4 +1,4 @@
-def max(a,b,c): 
+def maximum_value(a,b,c): 
     if a > b or c: 
         return a
     elif b > a or c: 
@@ -8,5 +8,5 @@ def max(a,b,c):
     else: 
         return "No greater number"
 
-print(max(10,5,9))
+print(maximum_value(10,5,9))
 
