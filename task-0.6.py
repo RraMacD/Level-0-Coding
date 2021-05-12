@@ -1,12 +1,16 @@
-def maximum_value(a,b,c): 
-    if a > b or c: 
-        return a
-    elif b > a or c: 
-        return b
-    elif c > a or b:
-        return c
-    else: 
-        return "No greater number"
 
-print(maximum_value(10,5,9))
+def maximum_value(a,b,c):
+    if b <= a >= c:
+        return a
+    elif a <= b >= c:
+        return b
+    elif a <= c >= b:
+        return c
+    else:
+        return 'no greater value'
+print(maximum_value(0,90,-7))
+
+
+
+
 
