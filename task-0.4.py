@@ -1,6 +1,6 @@
-def even_or_odd(a):
-    if (a % 2) == 0:
-        return "{0} is Even number".format(a)
+def even_or_odd(x):
+    if x%2 == 0:
+        print("even")
     else:
-        return "{0} is Odd number".format(a)
-print(even_or_odd(3))
+        print("odd")
+even_or_odd(int(input("Enter a number: ")))
