@@ -1,4 +1,3 @@
-def hello(hi): 
-    hi = "Tshepo"
-    print(f"Hello {hi}" + '!')
-hello("hi")
+def hello(name):
+    print("Hello " + name + "!")
+hello("Tshepo")
