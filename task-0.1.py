@@ -6,4 +6,3 @@ x2 = x1 + 3
 y2 = y1 + x2
 print(x2)
 print(y2)
-
