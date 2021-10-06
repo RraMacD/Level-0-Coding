@@ -7,4 +7,3 @@ def area_of_triangle():
         return area1
 
 print(area_of_triangle())
-
