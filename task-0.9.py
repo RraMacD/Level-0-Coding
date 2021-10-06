@@ -1,11 +1,4 @@
-
-def find_vowels(string):
-    vowels_list = "aeiouAEIOU"
-    res = set([each for each in string if each in vowels_list])
-    return res
-print("vowels found in word are: ", find_vowels(input()))
-    
-
-
-
-
+user_word = input("Enter a word: ")
+for i in user_word:
+    if (i=='a' or i=='e' or i=='u' or i=='i' or i=='o' or i=='A' or i=='E' or i=='U' or i=='I'  or i=='O'):
+        print("Vowels: " ,i)
