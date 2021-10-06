@@ -8,6 +8,3 @@ print('Your temparature in Fahrenheit is: {0}' .format(celciusDegree_to_fahrenhe
 user_number2 = float(input('Enter a number in fahrenheit: '))
 fahrenheit_to_celciusDegree = (user_number2 * 9/5) + 32
 print('Your temparature in celcius degrees is: {0}' .format(fahrenheit_to_celciusDegree))
-
-
-
