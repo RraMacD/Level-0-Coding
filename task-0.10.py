@@ -1,9 +1,9 @@
-def compare_words(a,b): 
-    word_1 = set(a) 
-    word_2 = set(b)
-    remove ={" "} 
-    list = (word_1 & word_2)-remove
-    alist= ''.join(list)
-    return alist
-print(compare_words('joy','flow'))
+def compare_words(a,b):
+    word1 = set(a)
+    word2 = set(b)
+    remove = {' '}
+    list = (word1 & word2) - remove
+    alist = ' , '.join(list)
+    return "Common letters: " + str(alist)
 
+print(compare_words(input('Enter a word: '),input('Enter a second word: ')))
