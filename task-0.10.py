@@ -6,4 +6,4 @@ def compare_words(a,b):
     alist = ' , '.join(list)
     return "Common letters: " + str(alist)
 
-print(compare_words(input('Enter a word: '),input('Enter a second word: ')))
+print(compare_words('computer','house'))
